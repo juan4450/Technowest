@@ -1,0 +1,25 @@
+body {
+  background-image: url(../Img/fond.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lora", serif;
+}
+
+/* main */
+
+main .container .row .img-fluid {
+  opacity: 85%;
+}
+
+.lead {
+  color: white;
+}
+
+main .container .row {
+  margin: 0.1rem;
+}
+.carousel {
+  width: 70%;
+  margin: auto;
+}

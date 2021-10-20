@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$title-font: 4rem;
+$black: black;
+$blu: #7ec8e3;
+/* Header */
+header .navbar {
+  background-image: radial-gradient(
+    ellipse closest-side,
+    rgb(0, 0, 0, 0.3) 90%,
+    rgb(0, 0, 255, 0.3) 5%,
+    rgb(7, 7, 41, 0.3)
+  );
+}
+.nav li {
+  margin: 0.4rem;
+}
+.nav-item {
+  padding: 0.1rem;
+  border-radius: 100%;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-item:hover {
+  transform: scale(1, 1.2);
+}
+.nav-link {
+  color: white;
+  opacity: 1;
+  margin: 0.4rem;
+}
+.nav-link:hover {
+  color: red;
+  font-size: 900;
+  opacity: 1;
+}
+/* Footer */
+.red4 {
+  color: green;
+}
+.red3 {
+  color: #bb188d;
+}
+.red1 {
+  color: gray;
+}
+.red2 {
+  color: $blu;
+}
+footer p {
+  color: white;
+}
+footer .container {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@mixin size($width, $height) {
+  height: $height;
+  width: $width;
+}
+
+.carousel-item img {
+  @include size(50rem, 26rem);
+}

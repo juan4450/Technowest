@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../../Img/Logo.png" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Esta pagina esta dedicada al servicio tecnico tanto de Pc como de Rig de mineria de criptomonedas. Aqui podras ver todo los servicios que brindamos, podras contactarnos e ir a todas nuestras redes."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="keywords"
+      content="PC, Gamer, mundo cripto, mundo gamer, servicio tecnico, service, limpieza de pc, reparacion de pc"
+    />
+    <title>TechnoWest - Servicios Garcia</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <img
+            src="../../Img/Logo.png"
+            alt="logo de TechnoWest, T con fondo de circuitos"
+            width="75"
+            height="75"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-auto"
+            id="navbarTogglerDemo02"
+          >
+            <ul class="navbar-nav mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Home/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Contacto/Contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Galeria/Galeria.html">
+                  Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="../Novedades/Novedades.html"
+                  >Novedades</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="../Servicios/Servicios.html"
+                  >Servicios</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Contenido principal de la pagina  -->
+      <div class="container pb-3 pt-2">
+        <img
+          src="../../Img/contactanos.jpg"
+          alt="banner seccion de contacto"
+          height="400"
+          width="100%"
+        />
+      </div>
+      <h2 class="text-center text-white">Contactate con nosotros.</h2>
+      <div class="container pb-2">
+        <div class="form__contactanos">
+          <form action="Contactanos">
+            <div class="row pt-1 pb-3">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  aria-label="First name"
+                  required
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Apellido"
+                  aria-label="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInputValue"
+              style="width: 1200"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInputValue">Ingrese un Mail valido</label>
+            <div class="form-floating">
+              <select
+                class="form-select"
+                id="floatingSelect"
+                style="width: 1200"
+                aria-label="Floating label select example"
+              >
+                <option selected>Por que servicio desea consultar</option>
+                <option value="1">Servicio Tecnico</option>
+                <option value="2">Limpieza y Mantenimiento</option>
+                <option value="3">Armado de PC</option>
+                <option value="4">Armado de Rig de minado</option>
+                <option value="5">Otros</option>
+              </select>
+              <label for="floatingSelect">Works with selects</label>
+            </div>
+            <div class="form-floating p-5">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Dejanos tu consulta</label>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+              <button class="btn btn-primary" type="reset">Borrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+
+    <footer class="border-top pb-3 bg-dark">
+      <div class="container">
+        <div class="row align-items-end">
+          <!-- Logo -->
+          <div class="col-4 col-md">
+            <img
+              class="logoimage"
+              src="../../Img/Logo.png"
+              alt="logo de TechnoWest, T con fondo de circuitos"
+              width="80"
+              height="80"
+            />
+          </div>
+          <!-- Technowest -->
+          <div class="col-4 col-md">
+            <p class="fw-bold text-center">&copy -Juan Garcia-</p>
+          </div>
+          <!-- Redes -->
+          <div class="col-4 col-md text-end p-3">
+            <div class="redes">
+              <a class="red1 p-1" href="mailto: consultastechnowest@gmail.com"
+                ><i class="fas fa-envelope fa-2x"></i
+              ></a>
+              <a class="red2 p-1" href="https://www.facebook.com/technowest1"
+                ><i class="fab fa-facebook-square fa-2x"></i
+              ></a>
+              <a class="red3 p-1" href="https://www.instagram.com/technowest_"
+                ><i class="fab fa-instagram-square fa-2x"></i
+              ></a>
+              <a class="red4 p-1" href="https://wa.me/1127157008"
+                ><i class="fab fa-whatsapp-square fa-2x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script>
+      $(document).on("click", ".navbar-collapse.in", function (e) {
+        if (
+          $(e.target).is("a") &&
+          $(e.target).attr("class") != "dropdown-toggle"
+        ) {
+          $(this).collapse("hide");
+        }
+      });
+    </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

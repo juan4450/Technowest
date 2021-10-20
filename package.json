@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "Technowest",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "author": "Juan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
+}
